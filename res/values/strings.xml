@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maven Quickstart</string>
+    <string name="hello">Hello created-app1!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name = "swap_text">Swap Texts </string>
+    <string name = "activity_spawn_button_1_2_1">Spawn</string>
+    <string name = "activity_spawn_button_1_2_2">Erase</string>
+    <string name = "text_data_5">This is Random</string>
+    <string name = "text_data_4">This is Random</string>
+    <string name = "text_data_3">This is Random</string>
+    <string name = "text_data_2">This is Random</string>
+    <string name = "text_data_1">This is Random</string>
+
+</resources>

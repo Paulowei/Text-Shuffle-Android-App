@@ -1,0 +1,12 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+
+<com.moderneinstein.CustomView1
+android:text=""
+android:layout_width = "@dimen/custom_view_width_1"
+android:layout_height = "@dimen/custom_view_height_1"
+android:padding = "@dimen/custom_view_padding_1"
+android:layout_margin = "@dimen/custom_view_margin_1"
+android:id = "@+id/custom"
+android:background = "#342343"
+/>
+

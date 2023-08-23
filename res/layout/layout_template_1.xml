@@ -1,0 +1,25 @@
+<?xml version = "1.0"  encoding = "UTF-8"?>
+
+
+    
+    <RelativeLayout xmlns:android ="https://schemas.android.com/apk/res/android"
+    xmlns:tools= "https://schemas.android.com/tools" 
+      android:orientation = ""
+    android:id = "layout_template_1_container_1"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content" 
+     >
+     <ImageView 
+     android:id = "layout_template_1_image_1_1"
+    android:layout_width = "@dimen/template_1_image_width" 
+    android:layout_height = "@dimen/template_1_image_height" 
+    android:layout_gravity ="2"  />
+
+    <ImageView 
+    android:id = "layout_template_1_image_1_2" 
+    android:layout_height = "@dimen/template_1_image_height"
+    android:layout_gravity= "2" 
+    android:layout_width = "@dimen/template_1_image_width" >
+    
+
+    </RelativeLayout> 

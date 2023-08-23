@@ -1,0 +1,106 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<LinearLayout xmlns:android = "https://schemas.android.com/apk/res/android"
+ xmlns:tools = "https://schemas.android.com/tools"
+android:layout_height = "wrap_content"
+android:layout_width = "wrap_content"
+android:id = "@+id/activity_shuffle_1" 
+android:orientation= "vertical" >
+<RelativeLayout 
+  android:layout_width= "match_parent"
+ android:layout_height = "match_ content"
+ android:id = "@+id/activity_shuffle_1_1"
+ android:padding= "@dimen/standard_group_padding_1"
+ android:layout_gravity = "top">
+    <Button
+    android:id = "@+id/activity_shuffle_1_1_1"
+    android:alignLeft = "@id/activity_shuffle_1_1"
+    android:layout_height = "@dimen/standard_button_height_1"
+    android:layout_width = "@dimen/standard_button_width_1"
+    android:padding = "@dimen/standard_button_padding_1"
+    android:layout_margin ="@dimen/standard_button_margin_1" >
+    <Button 
+    android:id = "@+id/activity_shuffle_1_1_2"
+    android:alignParentRight = "true"
+    android:padding = "@dimen/standard_button_padding_1"
+    android:layout_margin = "@dimen/standard_button_margin_1"
+    android:layout_width = "@dimen/standard_button_width"
+     android:layout_height ="@dimen/standard_layout_height">
+</RelativeLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+     android:layout_height = "match_parent" 
+    android:id = "@+id/activity_shuffle_1_2"
+     android:padding = "@dimen/activity_shuffle_text_padding_1" 
+     android:orientation = "vertical" >
+        <com.moderneinstein.CustomView1
+        android:id = "@+id/text_value1"
+        android:layout_width = "@dimen/custom_view_1_width" 
+        android:layout_height = "@dimen/custom_view_1_height" 
+        android_text = "@string/text_data_1"
+        android:padding = "@dimen/activity_shuffle_text_padding_1"
+        android:layout_margin = "10dp"/>
+
+        <com.moderneinstein.CustomView1 
+        android:id = "@+id/text_value2"
+        android:layout_width = "@dimen/custom_view_1_width" 
+        android:layout_height = "@dimen/custom_view_1_height"  
+        android:text= "@string/text_data_2"
+        android:padding = "@dimen/activity_shuffle_text_padding_1"
+        android:layout_margin = "10dp"/>
+     
+        <com.moderneinstein.CustomView1
+        android:id = "@+id/text_value3"
+        android:layout_height = "@dimen/custom_view_1_height"  
+        android:layout_width = "@dimen/custom_view_1_width"  
+         android:text = "@string/text_data_3" 
+        android:padding = "@dimen/activity_shuffle_text_padding_1"
+        android:layout_margin = "10dp"/>
+
+        <com.moderneinstein.CustomView1
+         android:id = "@+id/text_value4"
+        android:layout_width = "@dimen/custom_view_1_width" 
+        android:layout_height = "@dimen/custom_view_1_height" 
+        android:text = "@string/text_data_4"
+        android:padding = "@dimen/activity_shuffle_text_padding_1"/
+        android:layout_margin = "10dp"/>
+         <com.moderneinstein.CustomView1
+         android:id = "@+id/text_value5"
+        android:layout_width = "@dimen/custom_view_1_width" 
+        android:layout_height = "@dimen/custom_view_1_height" 
+        android:text = "@string/text_data_4"
+        android:padding = "@dimen/activity_shuffle_text_padding_1"/
+        android:layout_margin = "10dp"/>
+    </LinearLayout >
+    <RelativeLayout
+    android:layout_gravity = "bottom"
+    android:layout_width = "match_parent" 
+    android_layout_height = "wrap_content"
+    android:id = "@+id/activity_shuffle_1_3" 
+    android:layout_gravity = "bottom"  >
+        <EditText
+        android:id = "@+id/activity_shuffle_1_3_1"
+        android:centreHorizontal = "true"
+        android:centreVertical = "true"
+        android:layout_width = "@dimen/custom_view_width_1"
+        android:layout_height ="@dimen/custom_view_height_1" />
+    </RelativeLayout>  
+    <LinearLayout 
+    android_id= "@+id/activity_shuffle_1_4"
+    android_layout_width = "match_parent" 
+    android_layout_height = "wrap_content"
+    android:orientation = "horizontal"
+    android:layout_gravity = "bottom">
+        <Button 
+        android:layout_width = "@dimen/standard_button_width_1" 
+        android:layout_height = "@dimen/standard_button_height_1" 
+        android:id = "@+id/activity_shuffle_1_4_1"
+        android:background = "#453421"
+        android:text = "Swap" /> 
+        <Button  
+        android:layout_height = "@dimen/standard_button_height_1"
+        android:layout_width = "@dimen/standard_button_width_1"
+        android:id =  "@+id/activity_shuffle_1_4_2"
+        android:background = "#433443"
+        android:text = "Switch">
+    </LinearLayout>
+</LinearLayout>

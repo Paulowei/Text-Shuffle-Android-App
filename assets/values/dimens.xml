@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name = "activity_padding">15dp</dimen>
+    <dimen name = "template_1_image_width">30dp</dimen>
+    <dimen name = "template_1_image_height">30dp</dimen>
+    <dimen name = "activity_shuffle_text_padding_1">20dp</dimen>
+    <dimen name = "activity_main_text_padding_1">20dp</dimen>
+    <dimen name = "activity_main_button_1_width">60dp</dimen>
+    <dimen name = "activity_main_button_1_height">20dp</dimen>
+    <dimen name = "activity_spawn_button_height_1">20dp<dimen>
+    <dimen name = "activity_spawn_button_width_1">50dp</dimen>
+    <dimen name = "standard_button_height_1">20dp</dimen>
+    <dimen name ="standard_button_width_1">60dp</dimen>
+    <dimen name = "standard_button_margin_1">15dp<dimen>
+    <dimen name = "standard_group_margin_1">20dp<dimen>
+    <dimen name = "standard_button_padding_1">10dp</dimen>
+    <dimen name = "standard_group_padding_1">12dp</dimen>
+    <dimen name = "custom_view_padding_1">10dp</dimen>
+    <dimen name = "custom_view_margin_1">10dp<dimen>
+    <dimen name = "custom_view_height_1">20dp</dimen>
+    <dimen name = "custom_view_width_1">50dp</dimen>
+    <dimen name = "custom_view_1_height_1">30dp</dimen>
+    <dimen name = "standard_edit_text_height_1">100dp</dimen>
+    <dimen name = "standard_edit_text_width_1">25dp</dimen>
+  <!-- <dimen name =  ""-->
+</resources>
+
+
+   
